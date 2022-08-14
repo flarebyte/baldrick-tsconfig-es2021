@@ -3,24 +3,32 @@
   "display": "ES2021",
 
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "lib": ["es2021"],
     "module": "Node16",
-    "target": "es2021",
     "moduleDetection": "force",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "declaration": true,
+    "moduleResolution": "Node16",
     "newLine": "lf",
-    "noImplicitReturns": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noEmitOnError": true,
+    "resolveJsonModule": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2021",
     "useDefineForClassFields": true
+  },
+  "ts-node": {
+    "compilerOptions": {},
+    "files": true,
+    "transpileOnly": true
   }
 }
