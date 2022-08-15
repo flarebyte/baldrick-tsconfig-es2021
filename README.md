@@ -2,7 +2,7 @@
 
 > Shared basic [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for ES2021
 
-This is _not an official_ [base](https://github.com/tsconfig/bases). It should support Node.js 14 and above, but should provide ES2021 support for [ES modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/).
+This is _not an official_ [base](https://github.com/tsconfig/bases). It should support Node.js 16 and above, but should provide ES2021 support for [ES modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/).
 
 It includes:
 
